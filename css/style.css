@@ -15,7 +15,7 @@
     background-position: center;
     background-size: cover;
     min-height: 720px;
-    padding-top: 250px;
+    padding-top: 350px;
     width: 100%;
     z-index: 2;
     position: relative;
@@ -33,7 +33,7 @@
 }
 
  #landing h1{
-  padding-top: 25%;
+  
   margin: 0;
   font-size: 50px;
   position: relative;
@@ -41,8 +41,7 @@
  }
 
 #landing p{
-  padding-top: 1%;
-  padding-bottom:25%;
+  
   font-size:20px;
   text-align: center;
   position: relative;
