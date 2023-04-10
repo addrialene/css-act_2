@@ -95,4 +95,66 @@ a{
 #blog a:hover{
     color:rgb(235, 80, 8);
 }
-Write to Paul Nathaniel David
+
+div{
+  border: 1px lightgray;
+  border-style: solid;
+  border-radius: 7px;
+  align-content: center;
+  display: inline-block;
+  box-shadow :0px 0px 10px rgba(229, 209, 209, 0.698);
+  background-color: whitesmoke;
+  width: 300px;
+  height:305px;
+  margin-left:15px;
+  margin-bottom: 150px;
+  padding-top: 35px;
+}
+
+div:hover{
+  background-color:#040404;
+  color: #ffffff;
+  border: 1px solid rgb(255, 255, 255);
+  transition: .5 ease;
+  cursor: [pointer];
+  margin: 5px;
+}
+
+[title^="Featured Item"] a{
+  color: rgb(231, 81, 22)
+}
+
+#services h2{
+  font-size: 35px;
+  text-align: center;
+  margin-top: -100px;
+  position:absolute;
+  width: 100%;
+  padding-top: 30px;
+}
+
+ul, li{
+  display: flex;
+  margin: 17px;
+  margin-top: 5px;
+}
+
+li{
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  width: 90px;
+  align-items: center;
+  font-size:15px;
+  padding-left: 60px;
+  padding-right: 40px;
+ }
+
+ li:hover{
+   box-shadow: 0px 0px 10px rgba(57, 56, 56, 0.698);
+   cursor: pointer;
+   background-color: rgb(246, 106, 6);
+ }
+
+ #service1{
+   background-color: rgb(242, 73, 7);
+ }
